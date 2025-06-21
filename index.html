@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!--Font Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+    <!--My Style-->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Kunalereng</title>
+
+    <style>
+        .navbar-custom .nav-link,
+        .navbar-custom .navbar-brand {
+            color: #fcfbfa !important;
+            font-weight: bold;
+        }
+
+        .navbar-custom .nav-link:hover,
+        .navbar-custom .navbar-brand:hover {
+            color: #4a2b11 !important;
+        }
+
+        /* supaya navbar toggler icon berwarna 
+    .navbar-light .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' "
+         "xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28472,39,15, 0.7%29' "
+         "stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }*/
+
+        /* Responsive text size on hero */
+        @media (max-width: 768px) {
+            #hero h1 {
+                font-size: 32px !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-custom bg-transparant position-fixed w-100">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <!--<img src="img/ikon petir.png" alt="" width="28" height="24" class="d-inline-block align-text-center me-3">-->
+                Kunalereng</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse bg-black shadow rounded-3 p-3" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#layanan">Deskripsi</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#rekomendasi">Rekomendasi</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#footer-section">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section-->
+    <section id="hero" style="min-height: 100vh; display: flex; align-items: flex-start; padding-top: 120px;">
+        <div class="container">
+            <div class="row justify-content-start">
+                <div class="col-12 col-md-6">
+                    <!-- Teks rata kiri -->
+                    <h1 style="text-align: left; font-size: 60px; font-weight: 800;">Selamat Datang di Website
+                        Kunalereng</h1>
+                    <p style="text-align: left; margin-bottom: 0;">
+                        <span style="font-weight: bold;">Surga Tersembunyi</span>
+                    </p>
+                    <p style="text-align: left;">
+                        di Tengah Alam Pedesaan
+                    </p>
+                </div>
+            </div>
+
+            <!-- Tombol di bawah teks, posisinya di tengah -->
+            <div class="row mt-4">
+                <div class="col-12 d-flex justify-content-center">
+                    <a href="https://maps.app.goo.gl/4UvcBTVKb7XWGNqJ7" target="_blank" style="
+              padding: 10px 40px;
+              background-color: #fefcfb;
+              color: #47270f;
+              text-decoration: none;
+              border-radius: 999px;
+              font-family: sans-serif;
+              font-size: 16px;
+              font-weight: bold;">
+                        Lihat Peta
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Layanan Section -->
+    <section id="layanan">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1>Deskripsi Singkat</h1>
+                    <span class="sub-title">Wisata Kunalereng</span>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <!-- Card 1 -->
+                <div class="col-12 text-center mb-4">
+                    <div class="card-layanan">
+                        <div class="circle-icon"></div>
+                        <h3 class="mt-1">Wisata Kunalereng</h3>
+                        <p class="mt-2">
+                            Kunalereng adalah destinasi kuliner dan rekreasi yang terletak di Kecamatan
+                            Kalibagor. Di sini terdapat Rumah Makan Kunalereng yang menawarkan berbagai
+                            olahan ayam dan seafood dengan cita rasa khas sambel bakar, aneka sayur dan gorengan, serta
+                            pilihan minuman segar seperti aneka jus dan kopi. Selain menikmati hidangan lezat,
+                            pengunjung juga bisa bersantai di area kolam renang yang tersedia. Dalam waktu dekat,
+                            homestay juga akan segera hadir untuk melengkapi pengalaman wisata yang nyaman dan
+                            menyenangkan di Kunalereng.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rekomendasi Section -->
+    <section id="rekomendasi" class="py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h1 class="section-title">Rekomendasi Wisata dan Kuliner Untukmu</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Card 1 -->
+                <div class="col-12 col-md-4 mb-4">
+                    <a href="rmkunalereng.html" style="text-decoration: none; color: inherit;">
+                        <div class="card p-2">
+                            <img src="img/resto3.jpg" alt="" class="img-fluid"
+                                style="height: 250px; object-fit: cover;">
+                            <div class="card-body">
+                                <h4>Kunalereng</h4>
+                                <p class="mb-4 lh-sm">Lihat Selengkapnya...</p>
+                            </div>
+
+                            <div class="card-fasilitas d-flex justify-content-between px-4">
+                                <span class="d-flex align-items-center">
+                                    <img src="img/iconprg.png" alt="" class="img-fluid me-2" style="width: 45px;" />
+                                    <p class="mb-0">Restaurant</p>
+                                </span>
+                                <span class="d-flex align-items-center">
+                                    <img src="img/iconkaroke.png" alt="" class="img-fluid me-2" style="width: 55px;" />
+                                    <p class="mb-0">Karaoke</p>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-12 col-md-4 mb-4">
+                    <a href="kolamrenang.html" style="text-decoration: none; color: inherit;">
+                        <div class="card p-2">
+                            <img src="img/kolam.jpg" alt="" class="img-fluid"
+                                style="object-fit: cover; max-height: 250px;">
+                            <div class="card-body">
+                                <h4>Kolam Renang</h4>
+                                <p class="mb-4 lh-sm">Lihat Selengkapnya...</p>
+                            </div>
+
+                            <div class="card-fasilitas d-flex justify-content-between px-4">
+                                <span class="d-flex align-items-center">
+                                    <img src="img/iconrenang.png" alt="" class="img-fluid me-2" style="width: 35px;" />
+                                    <p class="mb-0">Kolam Renang</p>
+                                </span>
+                                <span class="d-flex align-items-center">
+                                    <img src="img/iconmie.png" alt="" class="img-fluid me-2" style="width: 65px;" />
+                                    <p class="mb-0">Snack</p>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="col-md-4 col-sm-12 mb-4">
+                    <a href="homestay.html" style="text-decoration: none; color: inherit;">
+                        <div class="card p-2 position-relative">
+                            <!-- Badge Coming Soon -->
+                            <div class="coming-soon-badge">
+                                <i class="fas fa-hourglass-half"></i>
+                                Coming Soon
+                            </div>
+
+                            <img src="img/kunahome.png" alt="" class="img-fluid" style="height: 250px;" />
+                            <div class="card-body">
+                                <h4>Homestay</h4>
+                                <p class="mb-4 lh-sm">Lihat Selengkapnya...</p>
+                            </div>
+
+                            <div class="card-fasilitas d-flex justify-content-between px-4">
+                                <span class="d-flex align-items-center">
+                                    <img src="img/iconprg.png" alt="" class="img-fluid me-2" style="width: 45px;" />
+                                    <p class="mb-0">Restaurant</p>
+                                </span>
+                                 <span class="d-flex align-items-center">
+                                    <img src="img/iconrenang.png" alt="" class="img-fluid me-2" style="width: 35px;" />
+                                    <p class="mb-0">Kolam Renang</p>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <section id="footer-section" class="bg-dark text-white py-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <!-- Informasi Kontak -->
+                <div class="col-md-4 col-sm-12 mb-4">
+                    <h5>Kontak Kami</h5>
+                    <ul class="list-unstyled">
+                        <!-- TikTok -->
+                        <li class="d-flex align-items-center mb-3">
+                            <i class="fa-brands fa-tiktok me-3"></i>
+                            <span>kunalereng</span>
+                        </li>
+                        <!-- Instagram -->
+                        <li class="d-flex align-items-center mb-3">
+                            <i class="fa-brands fa-instagram me-3"></i>
+                            <span>rm.kunalereng</span>
+                        </li>
+                        <!-- Handphone -->
+                        <li class="d-flex align-items-center">
+                            <i class="fa-solid fa-phone me-3"></i>
+                            <span>+62 895 383 0833 27</span>
+                        </li>
+                        <br>
+                        <!--Alamat-->
+                        <li class="d-flex align-items-center mb-3">
+                            <i class="fa-solid fa-location-dot me-3"></i>
+                            <span>Dusun III, Desa Petir, Kecamatan Kalibagor, Kabupaten Banyumas, Jawa Tengah
+                                53191</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="text-center mt-4">
+                <p class="mb-0">&copy; 2024 Kunalereng. All Rights Reserved.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
